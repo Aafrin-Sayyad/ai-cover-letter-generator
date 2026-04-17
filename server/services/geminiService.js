@@ -2,7 +2,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 const geminiApiKey = process.env.GEMINI_API_KEY;
 
-const genAI = new GoogleGenerativeAI("YOUR API KEY");
+const genAI = new GoogleGenerativeAI(geminiApiKey);
 
 const model = genAI.getGenerativeModel({
   model: "gemini-3-flash-preview",
