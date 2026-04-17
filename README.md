@@ -1,5 +1,7 @@
 # AI Cover Letter Generator
 
+🌐 **Live Demo:** [https://ai-cover-letter-generator-lyart.vercel.app/]
+
 A complete production-ready AI SaaS project that generates highly personalized cover letters based on a candidate's resume (PDF) and the provided job description. Built using React, Express, and Google Gemini API.
 
 ## Features
