@@ -34,7 +34,7 @@ function App() {
     formData.append('jobDescription', jobDescription);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/generate', formData, {
+      const response = await axios.post('https://ai-cover-letter-generator-iilx.onrender.com', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
